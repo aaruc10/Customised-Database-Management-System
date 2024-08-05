@@ -1,4 +1,4 @@
-//Custmised Databse Management System
+//Custmised Database Management System
 
 import java.util.*;
 
@@ -34,9 +34,9 @@ class DBMS
 {
     public LinkedList <Employee> lobj;
 
-    public MarvellousDBMS()
+    public DBMS()
     {
-        System.out.println("Marvellous DBMS started succesfully...");
+        System.out.println("Aarti's DBMS started succesfully...");
         lobj = new LinkedList<Employee>();
     }
 
@@ -46,7 +46,7 @@ class DBMS
         lobj = null;
     }
 
-    // Insert into Employee values(1,"Sagar","Pune",11000);
+    // Insert into Employee values(1,"Sagar","Pune",11000);S
     public void InsertIntoTable(String name, String Address, int Salary)
     {
         Employee eobj = new Employee(name,Address,Salary);
@@ -59,7 +59,7 @@ class DBMS
         System.out.println("Data from the Employee Databsae : ");
 
         System.out.println("\n----------------------------------------------------------");
-        System.out.println("EID\tEname\t\tEaddress\t\tEsalary");
+        System.out.println("EID\tEname\tEaddress\tEsalary");
         System.out.println("----------------------------------------------------------");
 
         for(Employee eref : lobj)
@@ -381,13 +381,13 @@ class CDMS
                     break;
 
                 case 13 : 
-                    System.out.println("This project developed by Marvellous Infosystems");
+                    System.out.println("This project developed by Aarti");
                     System.out.println("All copyrights reserved..");
 
                     break;
                     
                 case 14 : 
-                    System.out.println("Thank you for using the Marvellous DBMS");
+                    System.out.println("Thank you for using the Aarti's DBMS");
                     mobj = null;
 
                     System.gc();
